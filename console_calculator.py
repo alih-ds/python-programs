@@ -1,13 +1,7 @@
 # Arithmetic Calculator
-print("First number:")
-first_number = float(input())
-print()
-print("Operator:")
-operation = str(input())
-print()
-print("Second number:")
-second_number = float(input())
-print()
+first_number = float(input("First number: "))
+operation = str(input("Operator: "))
+second_number = float(input("Second number: "))
 if operation == "+":
     result = first_number + second_number
 elif operation == "-":
@@ -20,5 +14,4 @@ elif operation == "**":
     result = first_number ** second_number
 else:
     print("Error")
-print("Result:")
-print(result)
+print("Result:", result)
