@@ -1,3 +1,4 @@
+# Arithmetic Calculator
 print("First number:")
 first_number = float(input())
 print()
